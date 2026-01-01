@@ -1,8 +1,1 @@
-from django.contrib import admin
-from .models import User, Team, Activity, Workout, Leaderboard
-
-admin.site.register(User)
-admin.site.register(Team)
-admin.site.register(Activity)
-admin.site.register(Workout)
-admin.site.register(Leaderboard)
+# No Django ORM models to register. MongoEngine models are not supported in Django admin.
